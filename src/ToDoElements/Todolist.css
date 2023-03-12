@@ -1,0 +1,98 @@
+
+.App{
+    text-align: center;
+    color: black;
+}
+
+.bg {
+     background-color: orange;
+     border-radius: 5px;
+     padding: 10px 140px 15px 20px;
+     margin-bottom: 10px;
+     text-align: center;
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     position: relative;
+    
+}
+
+.bg div {
+    display: flex;
+    align-items: center;
+}
+
+.tasknum{
+    width: 25px;
+    height: 25px;
+    color:darkred;
+    border : 2px solid blue;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg .txt{
+      flex: 1;
+}
+.bg .done .txt{
+      text-decoration: line-through;
+      opacity: 0.4;
+}
+.bg .wrap{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: auto;
+    display: inline-block;
+}
+
+.bg .wrap span{
+    display: inline-block;
+    margin: 0px 10px 0 10px;
+    cursor: pointer;
+    color: #00ff89;
+}
+
+ 
+.mr-20{
+    margin-right: 10px;
+}
+
+
+#heading{
+    color: red;
+   text-align: center;
+   font-size: 20px;
+   margin: 10px 0px;
+}
+
+@media screen and (max-width : 250px) {
+    .bg .wrap span{
+        margin: 0px 4px;
+    }
+    .bg{
+        font-size: 16px;
+    }
+}
+.icon-color{
+    color: crimson;
+}
+.icon-color3{
+    color: white;
+}
+
+.icon-color2{
+    color: yellow;
+}
+.icon-color:hover{
+    color: red;
+}
+
+.icon-color2:hover{
+    color: green;
+}
